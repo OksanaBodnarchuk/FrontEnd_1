@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="nav m-menu">
+              <div class="logo">Super Finti</div>
+              <nav class="menu">
+                  <h5 class="menu__subtitle">Main Navigation</h5>
+                  <ul class="menu__list">
+                     <li class="menu__item">
+                      <a class="menu__link" href="./">
+                       <span class="menu__text">
+                      <span class ="menu__icon menu__icon--medium mr-2">
+                      <i class="las la-th-large"></i>
+                      </span>
+                      <span class="menu__item--name">Dashboard</span>
+                      <span class="menu__icon menu__icon--small">
+                          <i class="las la-angle-right">
+                          </i>
+                      </span>
+                     </a>
+                      </li>
+                      <li class="menu__item">
+                          <a class="menu__link" href="./">
+                           <span class="menu__text">
+                          <span class ="menu__icon menu__icon--medium mr-2">
+                          <i class="las la-expand nav-icons"></i>
+                          </span>
+                          <span class="menu__item--name">Transaction</span>
+                          <span class="menu__icon menu__icon--small">
+                          <i class="las la-angle-right">
+                          </i>
+                          </span>
+                         </a>
+                      </li>
+                      <li class="menu__item">
+                          <a class="menu__link" href="./">
+                              <span class="menu__text">
+                               <span class ="menu__icon menu__icon--medium mr-2">
+                                 <i class="las la-address-book nav-icons"></i>
+                               </span>
+                                 <span class="menu__item--name">Contacts</span>
+                                 <span class="menu__icon menu__icon--small">
+                                  <i class="las la-angle-right">
+                                  </i>
+                              </span>
+                          </a>
+                      </li>
+                      <li class="menu__item">
+                          <a class="menu__link" href="./">
+                              <span class="menu__text">
+                                  <span class ="menu__icon menu__icon--medium mr-2">
+                                  <i class="las la-bullseye nav-icons"></i>
+                                  </span>
+                                  <span class="menu__item--name">Features</span>
+                                  <span class="menu__icon menu__icon--small">
+                                      <i class="las la-angle-right">
+                                      </i>
+                                  </span>
+                          </a>
+                      </li>
+                      <li class="menu__item">
+                          <a class="menu__link" href="./">
+                              <span class="menu__text">
+                                  <span class ="menu__icon menu__icon--medium mr-2">
+                                      <i class="las la-grip-lines-vertical nav-icons"></i>
+                                      </span>
+                                      <span class="menu__item--name">Library</span>
+                          </a>
+                      </nav>
+              
+                  <div class="menu">
+                    <h5 class="menu__subtitle">Settings & Schedules</h5>
+                    <ul class="menu__list">
+                       <li class="menu__item">
+                        <a class="menu__link" href="./">
+                         <span class="menu__text">
+                        <span class ="menu__icon menu__icon--medium mr-2">
+                        <i class="las la-wallet nav-icons"></i>
+                        </span>
+                        <span class="menu__item--name">Base Wallet</span>
+                        <span class="menu__icon menu__icon--small">
+                            <i class="las la-angle-right">
+                            </i>
+                        </span>
+                       </a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="./">
+                             <span class="menu__text">
+                            <span class ="menu__icon menu__icon--medium mr-2">
+                            <i class="las la-expand nav-icons"></i>
+                            </span>
+                            <span class="menu__item--name">My Contacts</span>
+                            <span class="menu__icon menu__icon--small">
+                                <i class="las la-angle-right">
+                                </i>
+                            </span>
+                           </a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="./">
+                                 <span class="menu__text">
+                                <span class ="menu__icon menu__icon--medium mr-2">
+                                <i class="las la-file-invoice-dollar nav-icons"></i>
+                                </span>
+                                <span class="menu__item--name">Invoices</span>
+                                <span class="menu__icon menu__icon--small">
+                                    <i class="las la-angle-right">
+                                    </i>
+                                </span>
+                               </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="./">
+                                     <span class="menu__text">
+                                    <span class ="menu__icon menu__icon--medium mr-2">
+                                    <i class="las la-calendar-check nav-icons"></i>
+                                    </span>
+                                    <span class="menu__item--name">Schedules</span>
+                                    <span class="menu__icon menu__icon--small">
+                                        <i class="las la-angle-right">
+                                        </i>
+                                    </span>
+                                   </a>
+                                </li>
+              
+                    </ul>
+                  </div>
+                  <div class="help__section help__section--help">
+                    
+                    <div class="help__section">
+                      <h3 class="help__heading">Help Center</h3>
+                      <p class="help__text">
+                        Having trouble in Finti? Please contact us if you have any question!
+                      </p>
+                    </div>
+                    <button class="help__btn">Go To Help Center</button>
+                  </div>
+            </m-menu>             
+            
+        </aside>
+        <main>
+            <header>
+              <div class="search">
+                <span class="search__icon">
+                  <i class="las la-search"></i>
+                </span>
+    
+                <input class="search__input" type="text" placeholder="Search.." />
+              </div>
+    
+              <div>
+                <button class="button-icon">
+                  <i class="las la-file"></i>
+                </button>
+    
+                <button class="button-icon">
+                  <i class="las la-inbox"></i>
+                </button>
+    
+                <button class="button-icon">
+                  <i class="las la-ellipsis-v"></i>
+                </button>
+              </div>
+    
+              <div class="links">
+                <a class="link link--bold link--medium" href="">Wallet</a>
+                <a class="link link--bold link--medium" href="">Invoice</a>
+              </div>
+    
+              <div class="user-block">
+                <h4 class="subtitle mr-4">Hi, Oksana</h4>
+    
+                <img class="avatar" src="https://img.icons8.com/office/35/000000/user.png" alt="" />
+              </div>
+
+            </header>
+          </header>
+          <div class="burger" onclick="toggleMenu()">
+            <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"> <line x1="18" y1="6" x2="6" y2="18"></line> <line x1="6" y1="6" x2="18" y2="18"></line> </svg> 
+          </div>
+          
+          <section class="cards">
+              <div class="card1"></div>
+              <div class="card2"></div>
+              <div class="card3"></div>
+          </section>
+          <section class="content">
+            <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus temporibus, ratione magni iusto minus magnam quia at, saepe laborum quasi soluta rem excepturi earum, dolor hic sunt ipsum repudiandae cupiditate veritatis. Quas aliquam ducimus beatae ullam corrupti ea nobis, provident tempora, voluptas incidunt quam pariatur enim. Libero provident, veritatis et sapiente perferendis dolorum temporibus atque vel optio voluptatum vero saepe. Eum similique quod nulla perferendis odit quibusdam deleniti dolore impedit minima repellat velit eveniet et magnam, error beatae! Amet similique autem neque libero optio nostrum reprehenderit quia explicabo molestiae facere adipisci blanditiis ducimus quas, culpa veritatis, perferendis vero nihil tempora ipsam sint porro odio. Cumque ab mollitia, incidunt deleniti quia sequi debitis vitae iusto rerum, voluptatibus, cupiditate possimus ut soluta eum exercitationem necessitatibus aliquid quasi eveniet esse officia? Beatae laudantium delectus adipisci numquam modi amet iure enim fugiat hic, omnis velit ducimus quasi ad debitis. Veritatis sapiente temporibus quos ex. Dolor unde eligendi consectetur officiis molestias? Adipisci minima totam illum ea dolore magni expedita molestiae consectetur nam iusto? Voluptas maiores itaque officia sequi cupiditate. Quis tempore nemo culpa saepe reprehenderit atque dolore quia, suscipit, rem vel cumque aliquid reiciendis, facere incidunt error numquam inventore blanditiis! Corporis natus distinctio earum magnam recusandae ipsum facere ullam. Voluptatibus cum laboriosam nulla facere veniam iste! Voluptates eveniet dolorum quae aut accusantium aperiam placeat dicta corrupti velit distinctio sit ex corporis, odit rem sint! Saepe libero consequatur non necessitatibus laudantium. Sed assumenda corporis possimus id sit provident saepe rerum incidunt. Aliquam eum quia placeat, voluptatibus soluta ab quibusdam reprehenderit ex blanditiis, sit necessitatibus consequatur pariatur illo, saepe nemo. Maxime placeat voluptates quia harum facilis dignissimos enim perspiciatis exercitationem veniam impedit, est illum vitae deserunt distinctio doloremque fugiat laboriosam aliquam id iusto. Corporis sunt earum incidunt totam hic quas libero possimus, provident dignissimos molestiae dolores. Eos repudiandae consequuntur veritatis cupiditate alias soluta aspernatur non. Corporis eaque animi quibusdam aspernatur quo consequuntur, consectetur cum recusandae voluptates, ea sint inventore repellat alias facere dignissimos veniam repudiandae libero. Similique saepe qui dolore nostrum magnam quidem, aut nemo voluptas adipisci dolorem ipsam officia fuga! Voluptate aspernatur, saepe perferendis rem dolorum enim earum tenetur amet corrupti veniam ducimus placeat nostrum consectetur dolore reiciendis beatae aliquam nisi vitae. Obcaecati non ea, explicabo aut asperiores aspernatur neque inventore magnam a magni, praesentium quidem debitis, incidunt eum perspiciatis. Recusandae, incidunt distinctio libero consequatur dolores atque pariatur. Eaque, doloremque itaque veniam quidem, vel maxime porro error perspiciatis provident ab consectetur odio dicta omnis perferendis magni quas quia voluptatem ex cupiditate? Corrupti earum, doloremque molestias laboriosam delectus aliquid sapiente culpa, amet minus mollitia fuga? Ab quisquam, quo provident tempora sit blanditiis nostrum iste, ad cum, aut perferendis ut quae! Consequatur perspiciatis, odio necessitatibus ipsam asperiores corrupti adipisci earum debitis nam qui velit atque perferendis reiciendis, numquam non laudantium ab vero sapiente. Explicabo maiores fuga aliquam blanditiis culpa fugit adipisci, doloribus, unde quibusdam quo neque! Nihil quod est nam sit saepe natus, laudantium consequuntur! Amet provident, tenetur dicta quibusdam laudantium, harum impedit nostrum obcaecati, cupiditate asperiores fugit.</p>
+          </section>
+    
+          </main>
+    </div>
+    <script>
+      function toggleMenu() {
+        var sidebar = document.querySelector('.sidebar');
+        var burger = document.querySelector('.burger');
+
+        sidebar.classList.toggle('sidebar--open');
+        burger.classList.toggle('burger--open');
+      } 
+    </script>
+    
+</body>
+</html>
